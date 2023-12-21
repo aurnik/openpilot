@@ -74,5 +74,5 @@ runs:
       with:
         driver: docker-container
     # build our docker image
-    - shell: bash
-      run: eval ${{ env.BUILD }}
+    # - shell: bash
+    #   run: eval ${{ env.BUILD }}
